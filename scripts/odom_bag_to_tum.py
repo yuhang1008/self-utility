@@ -44,11 +44,11 @@ def load_calib(calib_file_path):
 #-------------------------------------------------------------------------------------------------------
 
 
-output_folder = "/media/lde/SSD_2T/Aodometry_converted/seg_f/"
+output_folder = "/media/lde/SSD_2T/Aodometry_converted/aloam/"
 calib_folder = "/home/lde/KITTI_ODOMETRY/data_odometry_calib/dataset/sequences/"
-odom_bag_folder = "/media/lde/SSD_2T/A_pure_odom_bag/seg_f/"
-# odometry_topic_name = '/aft_mapped_to_init_high_frec' loam
-odometry_topic_name = '/odom'
+odom_bag_folder = "/media/lde/SSD_2T/A_pure_odom_bag/aloam/"
+odometry_topic_name = '/aft_mapped_to_init_high_frec'
+# odometry_topic_name = '/odom'
 
 for sequence_num in range(11):
 

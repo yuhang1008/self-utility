@@ -48,7 +48,7 @@ def load_calib(calib_file_path):
 output_folder = "/media/lde/SSD_2T/Aodometry_converted/aloam/"
 calib_folder = "/home/lde/KITTI_ODOMETRY/data_odometry_calib/dataset/sequences/"
 odom_bag_folder = "/media/lde/SSD_2T/A_pure_odom_bag/aloam/"
-odometry_topic_name = '/aft_mapped_to_init'
+odometry_topic_name = '/aft_mapped_to_init_high_frec'
 
 
 

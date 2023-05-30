@@ -14,4 +14,5 @@ def format_sequence(num):
 
 for index in range(11):
     index_string = format_sequence(index)
-    print("evo_ape tum gt_tum/" + index_string + ".txt seg_f/" + index_string + ".txt -va")
+    print("evo_ape tum gt_tum/" + index_string + ".txt aloam/" + index_string + ".txt -v " + "--save_results evo_results/aloam_" + index_string +".zip")
+    # print("evo_ape kitti gt/" + index_string + ".txt lego/" + index_string + ".txt -va")
